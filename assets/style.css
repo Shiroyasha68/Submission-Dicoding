@@ -195,7 +195,7 @@ footer {
 }
 @media screen and (max-width: 640px) {
   body {
-    width: 520px;
+    width: 480px;
   }
   nav {
     display: none;
