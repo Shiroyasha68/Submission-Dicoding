@@ -1,0 +1,217 @@
+"Bunga tidak bisa mekar tanpa sinar matahari, dan manusia tidak bisa hidup tanpa cinta." - Max Muller
+mawar https://kumparan.com/hipontianak/kenali-arti-warna-bunga-mawar-sebagai-hadiah-valentine-1vA2uDiJSN5/full
+anggrek https://tokobungalampung.com/filosofi-bunga-anggrek/
+marigold https://www.idntimes.com/life/inspiration/glenda-mutia-wiranty/12-bunga-ini-merupakan-simbol-bulan-kelahiranmu-c1c2/11
+melati https://threebouquets.com/blogs/article/bunga-melati-ciri-arti-makna-filosofis-jenisnya#:~:text=Makna%20dan%20Filosofi%20Bunga%20Melati&text=Secara%20filosofis%2C%20bunga%20melati%20menggambarkan,dan%20juga%20keanggunan%20dalam%20kesederhanaan.&text=Bunga%20melati%20ini%20mempunyai%20keharuman,lambang%20cinta%20serta%20kasih%20sayang.
+lavender https://www.idntimes.com/hype/fun-fact/astrimeita185atgmailcom/bunga-yang-punya-makna-menyentuh-c1c2/2
+saya merupakan seseorang yang sangat tertarik dengan pemrograman, khususnya pemrograman website.
+selengkapnya >>>
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  background-color: #91c788;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 10;
+}
+nav,
+a {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 6rem;
+  color: white;
+}
+.hamburger-menu {
+  visibility: hidden;
+  width: 30px;
+  margin-left: 6rem;
+}
+.title-head {
+  padding: 0px;
+  display: flex;
+  margin-left: 1rem;
+}
+#home {
+  background-color: #f2f3ee;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+}
+main {
+  background-color: #feffde;
+}
+.landing-page {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.text-landing {
+  margin-top: 10rem;
+  margin-left: 2rem;
+}
+.logo-landing {
+  width: 60%;
+  height: 20%;
+}
+.landing {
+  display: flex;
+}
+.text-ket {
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+.arrow {
+  margin-left: 50%;
+  height: 3rem;
+}
+.img-mawar,
+.img-anggrek,
+.img-marigold,
+.img-melati,
+.img-lavender {
+  width: 30%;
+  height: 30%;
+}
+.mawar,
+.anggrek,
+.marigold,
+.melati,
+.lavender {
+  display: flex;
+  margin-top: 5rem;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border: solid #91c788 3px;
+  border-radius: 5px;
+  box-shadow: 5px 10px 10px grey;
+}
+.variant {
+  text-align: center;
+  margin-top: 3rem;
+}
+.mawar,
+.marigold,
+.lavender {
+  margin-left: 30%;
+  margin-right: 5rem;
+}
+.anggrek,
+.melati {
+  margin-right: 30%;
+  margin-left: 5rem;
+}
+.img-melati {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.text-melati {
+  margin-left: 2rem;
+}
+.sel {
+  position: absolute;
+  color: blue;
+  margin-top: 2rem;
+}
+.sel-anggrek,
+.sel-melati {
+  margin-left: 25rem;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 50%;
+  align-items: center;
+  margin-left: 25%;
+  margin-top: 5rem;
+  box-shadow: 5px 10px 10px grey;
+}
+.img-profile {
+  width: 30%;
+  height: 12rem;
+  margin-top: 2rem;
+  border-radius: 50%;
+}
+.nama-profile {
+  text-align: center;
+  margin-top: 3rem;
+  color: white;
+}
+.facebook,
+.github,
+.instagram {
+  width: 40px;
+  height: 40px;
+}
+.icon {
+  display: flex;
+  margin-left: 15%;
+  margin-top: 3rem;
+  justify-content: flex-start;
+}
+.biodata {
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+}
+#profile {
+  padding-bottom: 2rem;
+  background-color: rgb(167, 167, 42);
+}
+footer {
+  margin-top: 2rem;
+  background-color: #52734d;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.atribusi {
+  display: flex;
+  margin-left: 2rem;
+}
+.arrow {
+  animation-name: bounce-3;
+  animation-timing-function: ease;
+}
+.box {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.arrow {
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
