@@ -24,6 +24,9 @@ header {
   right: 0px;
   z-index: 10;
 }
+.topnav {
+  display: n;
+}
 nav,
 a {
   width: 25%;
@@ -194,13 +197,12 @@ footer {
   }
 }
 @media screen and (max-width: 640px) {
-  body {
-  }
   nav {
     display: none;
   }
   header {
     height: 4rem;
+    border: solid black;
   }
   #home {
     margin-top: 60px;
@@ -210,7 +212,7 @@ footer {
     flex-direction: column-reverse;
   }
   .logo-landing {
-    margin-top: -2rem;
+    margin-top: 1rem;
     width: 10rem;
   }
   .text-head {
@@ -287,11 +289,18 @@ footer {
     height: 5rem;
     margin-top: 10px;
   }
-  footer {
-  }
-  a {
-  }
   .atribusi {
     display: inline;
+  }
+  #myLinks {
+    border: solid black;
+    display: none;
+    margin-top: -3rem;
+    padding-bottom: 1rem;
+  }
+  #myLinks a {
+    color: black;
+    margin-left: 1rem;
+    margin-top: 1rem;
   }
 }
