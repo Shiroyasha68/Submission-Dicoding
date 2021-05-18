@@ -19,3 +19,12 @@ anggrek.innerHTML = textAnggrek;
 marigold.innerHTML = textMarigold;
 melati.innerHTML = textMelati;
 lavender.innerHTML = textLavender;
+
+function myFunction() {
+  var x = document.getElementById('myLinks');
+  if (x.style.display === 'block') {
+    x.style.display = 'none';
+  } else {
+    x.style.display = 'block';
+  }
+}
